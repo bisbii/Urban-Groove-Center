@@ -1,0 +1,239 @@
+body {
+ margin-top:0%;
+ margin-bottom: 0%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3; 
+  opacity: 1;
+}
+
+.portada {
+  position: relative; 
+  background-color: #15109e66;
+}
+
+.logo {
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  width: 35%;
+  object-fit: cover;
+  transform: translate(-50%, -50%); 
+  z-index: 2; 
+}
+
+.fondo{
+  opacity: 0.4;
+  margin-top: 2.9%;
+  object-fit: cover;
+}
+
+.nosaltres{
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  
+}
+.titol1{
+ font-size: 250%; 
+ font-family: 'Raleway', sans-serif;
+ color: #15109ebb;
+ font-weight: 800;
+ margin-bottom: 1%;
+ text-align: center;
+}
+.titol2{
+  font-size: 250%; 
+  font-family:'Raleway', sans-serif;
+  color: #ffffff;
+  font-weight: 800;
+  margin-bottom: 1%;
+ }
+
+p.sobre{
+  margin-top: 3%;
+  font-size: 125%;
+  color: #333333a5;
+  font-family: 'Raleway', sans-serif;
+  background-color: rgba(211, 211, 211, 0.533);
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 5%;
+}
+.pass{
+  background-color: #8c52ff;
+}
+.sabates{
+  margin-top: 0%;
+  width: 100%;
+  opacity: 0.5;
+  height: 400px;
+ object-fit: cover;
+}
+.cadira{
+  margin-top: 5%;
+  width: 100%;
+  opacity: 0.5;
+  height: 400px;
+ object-fit: cover;
+ margin-bottom: 0%;
+}
+
+.pass2{
+  margin-top: 0%;
+  width: 100%;
+  opacity: 0.5;
+  height: 400px;
+ object-fit: cover;
+ margin-bottom: 0%;
+}
+
+.classes{
+  background-color: #8c52ff;
+  text-align: center;
+}
+
+.horari{
+  margin-top: 2%;
+  width: 60%;
+}
+
+.professors {
+  margin-top: 5%;
+  text-align: center;
+  margin-bottom: 5%;
+  
+}
+div.graella{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  gap: 20px; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+div.polaroid {
+  width: 100%; 
+  background-color: white;
+  transition: transform 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.polaroid:hover{
+  transform: scale(1.2);
+}
+
+div.nom {
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #333333a5;
+  font-family: 'Raleway', sans-serif;
+}
+
+.addicionals{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.records{
+  margin-top: 3%;
+  background-color: #8c52ff70;
+}
+.carousel.slide{
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 5%;
+}
+
+.playlist{
+  background-color: #8c52ff70;
+}
+.spotify{
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
+
+.widget{
+margin-left: 5%;
+margin-right: 5%;
+}
+.titol3{
+ font-size: 220%; 
+ font-family: 'Raleway', sans-serif;
+ color: #ffffff;
+ font-weight: 800;
+ margin-bottom: 5%;
+ background-color: #8c52ff70;
+ text-align: left;
+ padding-left: 10%;
+ padding-top: 1%;
+ padding-bottom: 1%;
+}
+
+.videos{
+  background-color: #8c52ff70;
+  padding-bottom: 5% ;
+}
+.video{
+  width: 40%;
+}
+.contacte{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #8c52ff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #8c52ff70;
+}
+
+.container {
+  margin-top: 5%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+footer{
+  background-color: #333;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.barra{
+  margin-bottom: 5%;
+}
+
+.barra1{
+  padding-bottom: 5%;
+  background-color: #8c52ff;
+}
